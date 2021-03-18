@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans+Condensed:300,700');
+  :root {
+    --gradient: linear-gradient(90deg, #ee6352, purple, #ee6352);
+  
+  }
+  
+  body {
+    font-family: basic-sans, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: #333;
+    background: #ddd;
+    background-size: 300%;
+    background-image: var(--gradient);
+    animation: bg-animation 25s infinite;
+
+    max-width: 100;
+    overflow-x: hidden;
+    
+    min-width: 300px;
+
+    max-height: 100;
+    overflow-y: hidden;
+  }
